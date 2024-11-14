@@ -1,12 +1,14 @@
 "use client";
-import ParticlesComponent from "../Components/Design_back/design";
-import Homee from "@/Components/Home/home";
+import Myskills from "@/components/Skills/myskil";
+import ParticlesComponent from "../components/Design_back/design";
+import Homee from "@/components/Home/home";
 
 export default function Home() {
   return (
     <div className="relative">
       <ParticlesComponent />
       <Homee />
+      <Myskills/>
     </div>
   );
 }
