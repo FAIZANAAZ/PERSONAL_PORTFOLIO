@@ -15,7 +15,7 @@ export default function Component() {
     <section className="min-h-screen relative z-10 flex flex-col w-full py-5 overflow-x-hidden">
       <div className='w-full text-center'>
         <span className='text-white text-xl sm:text-2xl'>Technical & Professional</span>
-        <h1 className='text-[#ff0000] font-bold text-3xl sm:text-4xl md:text-5xl'>My Skills</h1>
+        <h1 className='text-[#ff0000] font-bold text-3xl sm:text-4xl md:text-5xl'><span className='text-white'>M</span>y <span className='text-white'>S</span>kills</h1>
       </div>
       
       <div className='flex flex-col md:flex-row w-full mt-8'>

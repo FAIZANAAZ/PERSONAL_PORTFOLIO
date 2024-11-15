@@ -10,8 +10,8 @@ export default function Component() {
     <section className="relative z-10 flex flex-col md:flex-row justify-between in-h-[calc(100vh-50px)] w-[100%] items-center px-4 sm:px-6 md:px-8 lg:px-[8rem]  py-8">
       <div className="flex flex-col gap-y-2 md:gap-y-4 mb-8 md:mb-0 text-center md:text-left">
         <h5 className="text-[1rem] sm:text-[2rem] font-bold text-white">Hey !</h5>
-        <h1 className="text-white text-4xl sm:text-4.5xl lg:text-5xl xl:text-6xl font-bold">
-          I am <span className="text-[#ff0000] shadow-lg ">Faiza Naaz</span>
+        <h1 className=" text-4xl sm:text-4.5xl text-[#ff0000]  lg:text-5xl xl:text-6xl font-bold">
+        <span className='text-white'>I</span> am <span className="shadow-lg "><span className='text-white'>F</span>aiza <span className='text-white'>N</span>aaz</span>
         </h1>
         <span className="text-white">
           <Typist className="TypistExample-message text-xl sm:text-2xl lg:text-3xl" cursor={{ show: false }}>
@@ -31,7 +31,7 @@ export default function Component() {
         style={{ boxShadow: '0px 1px 15px #ff0000' }}>
         View Resume
       </button>
-    </Link>g
+    </Link>
       </div>
 
       <div className="flex justify-center md:justify-end">

@@ -8,4 +8,17 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  section {
+    width: 100%;
+    overflow-x: hidden; /* Ensures no horizontal scroll for the section */
+  }
+  

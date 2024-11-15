@@ -14,7 +14,7 @@ const Nav = () => {
 // bg-gradient-to-r from-red-500 to-black
   return (
     <>
-      <nav className="sticky z-10 top-0 w-[100%] flex justify-between items-center px-2  text-white opacity-[.05rem]">
+      <nav className=" z-10 top-0 w-[100%] flex justify-between items-center px-2  text-white opacity-[.05rem]">
         <div className="flex items-center ml-[.3125rem] sm:ml-[1.25rem]">
           <Image
             src={"/Images/logo.png"}
