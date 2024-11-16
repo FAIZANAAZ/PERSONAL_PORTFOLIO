@@ -45,7 +45,7 @@ export default function Component() {
     <>
       <ParticlesComponent />
       <section className="relative z-10 w-full flex flex-col px-2 py-8 sm:px-4 md:px-6 lg:px-8 overflow-x-hidden">
-        <h1 className="text-[#ff0000] font-bold text-2xl sm:text-3xl md:text-4xl text-center mb-8">
+        <h1 className="text-[#ff0000] font-bold text-2xl sm:text-3xl md:text-5xl text-center mb-8">
           <span className="text-white">M</span>y {" "}
           <span className="text-white">L</span>atest {" "}
           <span className="text-white">P</span>rojects
