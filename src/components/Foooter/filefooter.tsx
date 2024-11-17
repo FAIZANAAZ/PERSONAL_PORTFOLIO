@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { IoLogoVercel } from "react-icons/io5";
 
 const MyFooter = () => {
