@@ -15,7 +15,7 @@ const MyFooter = () => {
                 <p className="text-sm sm:text-base mt-2">Full Stack Developer</p>
             </div>
             <div className="flex flex-wrap justify-center gap-4  lg:mb-0">
-                <Link
+                {/* <Link
                     href="https://github.com/FAIZANAAZ"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const MyFooter = () => {
                         size={24}
                         className="sm:w-6 sm:h-6 lg:w-8 lg:h-8 hover:text-[#ff0000] transition-colors duration-300"
                     />
-                </Link>
+                </Link> */}
                 <Link
                     href="https://www.linkedin.com/in/faiza-naaz-2421722b9/"
                     target="_blank"
