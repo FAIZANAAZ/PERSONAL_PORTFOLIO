@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@react-aria/ssr": "^3.9.6",
     "@react-icons/all-files": "^4.1.0",
+    "@restart/ui": "^1.8.0",
     "@tsparticles/all": "^3.5.0",
     "@tsparticles/basic": "^3.5.0",
     "@tsparticles/engine": "^3.5.0",
