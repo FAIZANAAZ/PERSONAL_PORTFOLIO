@@ -5,7 +5,7 @@ import "react-vertical-timeline-component/style.min.css"
 import { MdWork, MdSchool } from "react-icons/md"
 import Image from 'next/image'
 import { timelineData, TimelineItem } from '../../../constant/about'
-import ParticlesComponent from '../Design_back/design'
+
 
 
 export default function TimelineAbout() {
@@ -33,7 +33,7 @@ export default function TimelineAbout() {
 
   return (
     <>
-      <ParticlesComponent />
+     
       <section className="min-h-screen relative z-10 flex flex-col w-full py-5 overflow-x-hidden lg:pl-10 ">
         <div className=' w-full text-center'>
           <span className='text-white text-center text-sm sm:text-base md:text-lg lg:text-xl'>Professional Journey</span>

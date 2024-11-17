@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from 'react'
-import ParticlesComponent from '@/components/Design_back/design'
 import { sendEmail } from '../../../src/utils/emailServices'
 
 
@@ -39,7 +38,7 @@ const MyContact = () => {
 
 return (
   <>
-    <ParticlesComponent />
+   
 
     <section className='min-h-screen relative z-10 flex flex-col w-full py-5 px-4 sm:px-6 lg:px-8 overflow-x-hidden'>
       <div className='items-center justify-center w-full h-full'>

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import { skills } from '../../../constant/skil'
 import Image from 'next/image'
-import ParticlesComponent from '../Design_back/design'
+
 
 export default function MySkills() {
   const [data, setdata] = useState<{ id: number; title: string; progress: string; width: string; }[]>([])
@@ -13,7 +13,7 @@ export default function MySkills() {
   }, [])
 
   return (
-    <>  <ParticlesComponent />
+    <>  
     <section  className="min-h-screen relative z-10 flex flex-col w-full py-5 overflow-x-hidden">
       <div className='w-full text-center'>
         <span className='text-white text-center text-sm sm:text-base md:text-lg lg:text-xl '>Technical & Professional</span>

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 
-export default function Component() {
+export default function Home1() {
   const [text, setText] = useState("Front-end Developer")
   const [isDeleting, setIsDeleting] = useState(false)
   const [loopNum, setLoopNum] = useState(0)
