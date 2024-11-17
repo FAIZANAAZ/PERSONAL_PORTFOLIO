@@ -1,6 +1,6 @@
-import ParticlesComponent from '../../components/Design_back/design'
-import MyContact from '../../components/Contacts/contact'
-import MySkills from '../../components/Skills/myskil'
+import ParticlesComponent from '../../components/Design_back/filedesing'
+import MyContact from '../../components/Contacts/filecontact'
+import MySkills from '../../components/Skills/fileskil'
 import React from 'react'
 
 const Skilcomponent

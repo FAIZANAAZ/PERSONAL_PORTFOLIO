@@ -1,8 +1,8 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
-import Nav from "@/components/Nav/nav";
-import MyFooter from "@/components/Foooter/footer";
+import Nav from "@/components/Nav/filenav";
+import MyFooter from "@/components/Foooter/filefooter";
 
 
 

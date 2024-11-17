@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import { sendEmail } from '../../../src/utils/emailServices'
+import { sendEmail } from '../../utils/emailServices'
 
 
 const MyContact = () => {

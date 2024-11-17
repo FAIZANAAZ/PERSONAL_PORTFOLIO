@@ -1,7 +1,7 @@
 import React from 'react'
-import MyContact from '../../components/Contacts/contact'
-import ParticlesComponent from '../../components/Design_back/design'
-import MySkills from '../../components/Skills/myskil'
+import MyContact from '../../components/Contacts/filecontact'
+import ParticlesComponent from '../../components/Design_back/filedesing'
+import MySkills from '../../components/Skills/fileskil'
 
 
 const Contactr = () => {

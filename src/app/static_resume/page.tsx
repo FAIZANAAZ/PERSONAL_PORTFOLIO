@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import ParticlesComponent from '../../components/Design_back/design'
+import ParticlesComponent from '../../components/Design_back/filedesing'
 
 
 const Resume = () => {

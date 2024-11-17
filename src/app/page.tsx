@@ -1,8 +1,8 @@
 "use client";
 
-import TimelineAbout from "@/components/About/about";
-import ParticlesComponent from "../components/Design_back/design";
-import Home1 from "@/components/Home/home";
+import TimelineAbout from "@/components/About/fileabout";
+import ParticlesComponent from "../components/Design_back/filedesing";
+import Home1 from "@/components/Home/filehome";
 
 
 export default function Home() {
