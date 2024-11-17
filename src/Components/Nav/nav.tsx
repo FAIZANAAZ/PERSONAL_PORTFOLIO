@@ -80,19 +80,19 @@ const Nav = () => {
               Home
             </Link>
             <Link
-              href={"/Aboutus"}
+              href={"/Aboutrout"}
               className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
             >
               About
             </Link>
             <Link
-              href={"/Ourgift"}
+              href={"/Skilrendering"}
               className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
             >
               Skill
             </Link>
             <Link
-              href={"/Ourshop"}
+              href={"/Projects"}
               className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
             >
               Projects
