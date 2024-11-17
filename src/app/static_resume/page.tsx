@@ -18,7 +18,7 @@ const Resume = () => {
             </div>
             <Image
               className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-cover rounded-full border-4 border-white shadow-lg"
-              src="/Images/profile-pic.jfif"
+              src="/Images/profilep.png"
               width={200}
               height={200}
               alt="Profile Picture"
