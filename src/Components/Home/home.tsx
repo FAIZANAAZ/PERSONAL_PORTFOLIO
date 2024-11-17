@@ -1,12 +1,38 @@
-"use client";
+'use client'
 
-
-import React from "react"
+import React, { useState, useEffect } from "react"
 import Image from "next/image"
-import Typist from "react-typist"
 import Link from "next/link"
 
 export default function Component() {
+  const [text, setText] = useState("Front-end Developer")
+  const [isDeleting, setIsDeleting] = useState(false)
+  const [loopNum, setLoopNum] = useState(0)
+  const [typingSpeed, setTypingSpeed] = useState(150)
+
+  const texts = ["Front-end Developer", "Full Stack Developer"]
+
+  useEffect(() => {
+    const handleTyping = () => {
+      const i = loopNum % texts.length
+      const fullText = texts[i]
+
+      setText(isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1))
+
+      setTypingSpeed(isDeleting ? 30 : 150)
+
+      if (!isDeleting && text === fullText) {
+        setTimeout(() => setIsDeleting(true), 500)
+      } else if (isDeleting && text === '') {
+        setIsDeleting(false)
+        setLoopNum(loopNum + 1)
+      }
+    }
+
+    const timer = setTimeout(handleTyping, typingSpeed)
+    return () => clearTimeout(timer)
+  }, [text, isDeleting, loopNum, typingSpeed, texts])
+
   return (
     <section className="z-10 flex flex-col lg:flex-row min-h-[calc(100vh-50px)] w-full gap-8 sm:gap-12 md:gap-16 lg:gap-20 px-4 sm:px-6 md:px-8 lg:px-[8rem] justify-between items-center lg:items-start py-8 lg:py-[5rem]">
       <div className="flex flex-col gap-y-2 md:gap-y-4 mb-8 lg:mb-0 text-center lg:text-left max-w-2xl">
@@ -21,21 +47,12 @@ export default function Component() {
           </span>
         </h1>
         <span className="text-white">
-          <Typist
-            className="TypistExample-message text-xl sm:text-2xl lg:text-3xl"
-            cursor={{ show: false }}
-          >
+          <span className="TypistExample-message text-xl sm:text-2xl lg:text-3xl">
             <span>I&apos;m </span>
-            <span className="font-weight-bold">
-              <span className="font-bold text-[#ff0000]">
-                Front-end Developer
-              </span>
-            </span>
-            <Typist.Backspace count={19} delay={1000} />
             <span className="font-bold text-[#ff0000]">
-              Full Stack Developer
+              {text}
             </span>
-          </Typist>
+          </span>
         </span>
         <p className="text-sm sm:text-base lg:text-lg text-white max-w-md mx-auto lg:mx-0">
           I&apos;m a full-stack developer in the making, focused on building
@@ -83,17 +100,15 @@ export default function Component() {
             </path>
           </svg>
         </div>
-        <div className=" h-[20rem] w-[20rem] sm:h-68 sm:w-68 md:h-80 md:w-80 lg:h-[20rem] lg:w-[20rem] flex justify-center items-center md:pr-8 lg:mr-5">
-
-  <Image
-          src="/Images/profilep.png"
-          alt="front-girl"
-          width={1000}
-          height={1000}
-          className="shadow-red-600 lg:h-[30rem] lg:w-[30rem]  h-[100%] w-[100%]  object-contain  "
-        />
-
-</div>
+        <div className="h-[20rem] w-[20rem] sm:h-68 sm:w-68 md:h-80 md:w-80 lg:h-[20rem] lg:w-[20rem] flex justify-center items-center md:pr-8 lg:mr-5">
+          <Image
+            src="/Images/profilep.png"
+            alt="front-girl"
+            width={1000}
+            height={1000}
+            className="shadow-red-600 lg:h-[30rem] lg:w-[30rem] h-[100%] w-[100%] object-contain"
+          />
+        </div>
       </div>
     </section>
   )
