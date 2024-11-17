@@ -59,8 +59,8 @@ const Resume = () => {
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold bg-red-600 p-2 border-2 border-black mb-4">Work Experience</h2>
               <p className="text-sm sm:text-base lg:text-lg mb-4 font-semibold text-gray-900">
                 <i className="fa-regular fa-circle mr-2"></i>
-                "Software Developer with hands-on experience in developing robust applications using the latest technologies. 
-                Worked at TechWave Solutions, focusing on delivering high-quality software solutions to meet client needs."
+                Software Developer with hands-on experience in developing robust applications using the latest technologies. 
+                Worked at TechWave Solutions, focusing on delivering high-quality software solutions to meet client needs.
               </p>
 
               {/* Languages Section */}
