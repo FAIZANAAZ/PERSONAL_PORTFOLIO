@@ -66,7 +66,7 @@ const Nav = () => {
       <AnimatePresence>
         {menu ? (
           <motion.div
-            className="absolute z-20 top-[3.75rem] right-[.125rem] flex flex-col space-y-[1.25rem] text-center font-bold h-[16.25rem] w-[140px] bg-white text-black text-[1.25rem] sm:hidden p-4"
+            className="absolute z-20 top-[3.75rem] right-[.125rem] flex flex-col space-y-[1.25rem] text-center font-bold h-[16.25rem] w-full bg-black text-white text-[1.25rem] sm:hidden p-4"
             key="menuu"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "16.25rem", opacity: 1 }}
