@@ -19,15 +19,15 @@ export interface TimelineItem {
         id: 2,
         title: "Full Stack Developer",
         date: "Jan 2023 - Present",
-        description: "React.JS |Typescript | Html | CSS | TailwindCSS | Next.js",
+        description: "React.JS |Typescript | Html | CSS | TailwindCSS | Next.js |Figma Templates & Pictures to Website",
         icon: "work"
       },
       
     {
       id: 3,
       title: "Education",
-      description: "ICOM of Computer Applications",
-      date: "2021 - 2023",
+      description: "ICOM of Computer science & Information Technology",
+      date: "2024 - 2025",
       icon: "education"
     }
   ];

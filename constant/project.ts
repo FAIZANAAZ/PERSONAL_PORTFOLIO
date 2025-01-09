@@ -62,4 +62,25 @@ export const dataProjects: Project[] = [
     icon2: SiTypescript,
     image: "/Images/p4.jpg",
   },
+  {
+    id: 6,
+    name: "FIGMA WEBSITE HACKTHON",
+    deploymentLink: "https://figma-hackthon-with-functionality-wedx.vercel.app/",
+    sourceLink: "https://github.com/FAIZANAAZ/FIGMA_HACKTHON_WITH_FUNCTIONALITY",
+    icon1: FaCss3,
+    icon2: SiTypescript,
+    icon3: RiNextjsFill,
+    image: "/sanity.jpg",
+  },
+  {
+    id: 7,
+    name: "FIGMA PIXEL PERFECT WEBSITE ",
+    deploymentLink: "https://figma-pixel-perfect-web.vercel.app/",
+    sourceLink: "https://github.com/FAIZANAAZ/FIGMA_PIXEL_PERFECT_WEB",
+    icon1: FaCss3,
+    icon2: SiTypescript,
+    icon3: RiNextjsFill,
+    image: "/ssct.jpg",
+  },
+
 ];
