@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import { skills } from '../../../constant/skil'
+import { skills } from '../../constant/skil'
 import Image from 'next/image'
 
 
@@ -44,7 +44,7 @@ export default function MySkills() {
         <div className='w-full md:w-[55%] flex items-center justify-center mt-8 md:mt-0'>
           <div className='flex gap-4 flex-wrap justify-center items-center max-w-[31.25rem]'>
             {[
-              "html", "css3", "tailwind", "figma", "nextjs", 
+              "html", "css3", "tailwind", "figma", "nextjs" ,"git","vercel" , "redux","api",
               "typescript", "javascript", "react"
             ].map((icon) => (
               <Image 

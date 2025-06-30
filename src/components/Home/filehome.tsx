@@ -10,7 +10,7 @@ export default function Home1() {
   const [loopNum, setLoopNum] = useState(0)
   const [typingSpeed, setTypingSpeed] = useState(150)
 
-  const texts = ["Front-end Developer", "Full Stack Developer"]
+  const texts = ["Front-end Developer"]
 
   useEffect(() => {
     const handleTyping = () => {
@@ -55,7 +55,7 @@ export default function Home1() {
           </span>
         </span>
         <p className="text-sm sm:text-base lg:text-lg text-white max-w-md mx-auto lg:mx-0">
-          I&apos;m a full-stack developer in the making, focused on building
+          I&apos;m a frontend developer in the making, focused on building
           engaging and user-friendly interfaces.
         </p>
         <Link href="/static_resume" className="inline-block self-center lg:self-start">
@@ -100,15 +100,16 @@ export default function Home1() {
             </path>
           </svg>
         </div>
-        <div className="h-[20rem] w-[20rem] sm:h-68 sm:w-68 md:h-80 md:w-80 lg:h-[20rem] lg:w-[20rem] flex justify-center items-center md:pr-8 lg:mr-5">
-          <Image
-            src="/Images/profilep.png"
-            alt="front-girl"
-            width={1000}
-            height={1000}
-            className="shadow-red-600 lg:h-[30rem] lg:w-[30rem] h-[100%] w-[100%] object-contain"
-          />
-        </div>
+        <div className="h-[20rem] w-[20rem] rounded-full sm:h-68 sm:w-68 md:h-80 md:w-80 lg:h-[20rem] lg:w-[20rem] flex justify-center items-center md:pr-8 lg:mr-5 overflow-hidden">
+  <Image
+    src="/Images/profilep.png"
+    alt="front-girl"
+    width={1000}
+    height={1000}
+    className="shadow-red-600  rounded-full h-[100%] w-[100%] object-cover"
+  />
+</div>
+
       </div>
     </section>
   )

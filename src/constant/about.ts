@@ -10,16 +10,16 @@ export interface TimelineItem {
   export const timelineData: TimelineItem[] = [
     {
         id: 1,
-        title: "UI Engineer",
+        title: " Frontend Developer",
         date: "Jan 2023 - Present",
-        description: "React.JS | Javascript | Figma Templates & Pictures to Website",
+        description: " Typescript | Figma To Html & Pictures to Website | Html | CSS | TailwindCSS | Next.js | Api integration | Redux Toolkit | Git & GitHub (basic) ",
         icon: "work"
       },
       {
         id: 2,
-        title: "Full Stack Developer",
-        date: "Jan 2023 - Present",
-        description: "React.JS |Typescript | Html | CSS | TailwindCSS | Next.js |Figma Templates & Pictures to Website",
+        title: "Backend Developer",
+        date: "Jan 2024 - Present",
+        description: "Typescript | Next.js | Node.js | Express.js | MongoDB | Sanity-CMS | Python ",
         icon: "work"
       },
       
@@ -27,7 +27,7 @@ export interface TimelineItem {
       id: 3,
       title: "Education",
       description: "ICOM of Computer science & Information Technology",
-      date: "2024 - 2025",
+      date: "2021 - 2023",
       icon: "education"
     }
   ];

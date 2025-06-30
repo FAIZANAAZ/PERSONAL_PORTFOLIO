@@ -7,7 +7,7 @@ import Link from "next/link"
 import { IoLogoVercel } from "react-icons/io5"
 import { FaGithub, FaHtml5 } from "react-icons/fa"
 import { IconType } from 'react-icons'
-import { dataProjects } from "../../../constant/project"
+import { dataProjects } from "../../constant/project"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 

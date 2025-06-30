@@ -7,7 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { MdWork, MdSchool } from "react-icons/md";
 import Image from "next/image";
-import { timelineData, TimelineItem } from "../../../constant/about";
+import { timelineData, TimelineItem } from "../../constant/about";
 
 export default function TimelineAbout() {
   const renderTimelineElement = (item: TimelineItem) => (
@@ -77,22 +77,23 @@ export default function TimelineAbout() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300">
                 <p className="font-normal">
-                  Hi, I`&#39;`m Faiza Naaz 👋, a passionate and dedicated web developer with a growing expertise in front-end development. My journey in the tech world began with the completion of my I.Com, followed by pursuing a bachelor`&#39;`s degree in IT. In early 2023, I embarked on an exciting path in web development, starting with full-stack development at GAIAC before specializing in front-end technologies.
+             Hi, I m Faiza Naaz 👋, a passionate and dedicated Front-End Developer with 1 year of experience in building visually stunning, responsive, and functional user interfaces. My journey in the tech world began with completing my I.Com, and in early 2023, I started my exciting path in web development, specializing in front-end technologies and delivering clean, optimized code.
 
-                  My core competencies lie in crafting visually stunning, responsive, and functional user interfaces. My technical toolkit includes:
+Currently, I’m expanding my skill set to become a Full-Stack Developer and diving into the realm of Artificial Intelligence. As a part of this journey, I’ve recently joined PIAIC to enhance my knowledge in Python, preparing myself to work with AI in the upcoming quarter. This step shows my commitment to staying ahead of the curve and continually evolving with the latest technologies.
 
-                  🔧 Front-End Development: JavaScript, TypeScript, Next.js, React, HTML, CSS, and animations.
-                  🎨 UI Conversion: Transforming Figma or any design into clean, optimized Next.js code.
+🔧 My core skills include:
 
-                  As a testament to my skills and dedication, I`&#39;`ve successfully built several projects that showcase my proficiency in front-end development. These projects, available in my portfolio, demonstrate my ability to create engaging and user-friendly web experiences.
+Front-End Development: JavaScript, TypeScript, React, Next.js, HTML, CSS, and animations.
 
-                  Beyond my current expertise, I`&#39;`m deeply interested in the realm of Artificial Intelligence. To further this interest, I`&#39;`ve recently joined PIAIC to enhance my knowledge in Python, preparing myself to delve into AI in the upcoming quarter. This step reflects my commitment to continuous learning and staying at the forefront of technological advancements.
+UI Conversion: Transforming Figma or any design into clean, responsive Next.js code.
 
-                  My approach to work is characterized by unwavering dedication and a consistent allocation of time for learning and project building. This focus has been instrumental in my rapid growth and skill development in the field of web development.
+State Management: Learning Redux Toolkit for efficient state handling.
 
-                  I am fully prepared and excited to deliver high-quality front-end solutions, bringing creativity and technical expertise to every project. I look forward to contributing to exciting development opportunities and collaborating on innovative web solutions.
+API Integration: Integrating APIs to connect front-end applications with back-end systems seamlessly.
 
-                  Let`&#39;`s build something amazing together!
+With a passion for creating seamless and interactive web experiences, I’ve successfully completed projects that showcase my growing expertise. These projects, available in my portfolio, reflect my ability to combine creativity with technical expertise.
+
+I am excited to bring my skills to full-stack development and AI, continuously learning and building upon my foundation. Let’s build something amazing together
                 </p>
               </div>
               <div className="mt-8 flex justify-center">
