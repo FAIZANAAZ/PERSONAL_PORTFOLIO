@@ -1,61 +1,67 @@
-"use client";
-import { AnimatePresence, motion } from "framer-motion";
-import { ImMenu } from "react-icons/im";
-import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
+"use client"
+import { AnimatePresence, motion } from "framer-motion"
+import { ImMenu } from "react-icons/im"
+import { useState } from "react"
+import Image from "next/image"
+import Link from "next/link"
 
 const Nav = () => {
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(false)
 
   const openmenu = () => {
-    setMenu(!menu);
-  };
-// bg-gradient-to-r from-red-500 to-black
+    setMenu(!menu)
+  }
+
+  const closeMenu = () => {
+    setMenu(false)
+  }
+
   return (
     <>
-      <nav className=" z-10 top-0 w-[100%] flex justify-between items-center px-2  text-white opacity-[.05rem]">
+      <nav className="z-10 top-0 w-[100%] flex justify-between items-center px-2 text-white opacity-[.05rem]">
         <div className="flex items-center ml-[.3125rem] sm:ml-[1.25rem]">
           <Image
             src={"/Images/logo.png"}
             width={500}
             height={500}
             alt="Gift logo"
-            className="sm:w-[8.25rem] sm:h-[8.25rem] h-[3.125rem] w-[4.125rem] "
+            className="sm:w-[8.25rem] sm:h-[8.25rem] h-[3.125rem] w-[4.125rem]"
           />
         </div>
+
         <div className="sm:flex lg:space-x-[5rem] text-white lg:font-semibold lg:text-[1.5625rem] md:space-x-[1.875rem] md:text-[1.25rem] md:font-[600] sm:space-x-[1.875rem] sm:text-[1.125rem] sm:font-[500] absolute right-[3.125rem] hidden">
           <Link
             href={"/"}
-            className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+            className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-110 hover:drop-shadow-lg transition-all duration-300 transform"
           >
             Home
           </Link>
           <Link
             href={"/Aboutrout"}
-            className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+            className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-110 hover:drop-shadow-lg transition-all duration-300 transform"
           >
             About
           </Link>
           <Link
             href={"/Skilrendering"}
-            className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+            className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-110 hover:drop-shadow-lg transition-all duration-300 transform"
           >
             Skill
           </Link>
           <Link
             href={"/Projects"}
-            className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+            className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-110 hover:drop-shadow-lg transition-all duration-300 transform"
           >
             Projects
           </Link>
           <Link
             href={"/Contact"}
-            className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+            className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-110 hover:drop-shadow-lg transition-all duration-300 transform"
           >
             Contact me
           </Link>
         </div>
+
         <div className="flex flex-col justify-center items-end">
           <button onClick={openmenu} className="sm:hidden block">
             <ImMenu size={30} color="#ff0000" />
@@ -75,31 +81,36 @@ const Nav = () => {
           >
             <Link
               href={"/"}
-              className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+              onClick={closeMenu}
+              className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-105 transition-all duration-300 transform"
             >
               Home
             </Link>
             <Link
               href={"/Aboutrout"}
-              className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+              onClick={closeMenu}
+              className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-105 transition-all duration-300 transform"
             >
               About
             </Link>
             <Link
               href={"/Skilrendering"}
-              className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+              onClick={closeMenu}
+              className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-105 transition-all duration-300 transform"
             >
               Skill
             </Link>
             <Link
               href={"/Projects"}
-              className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+              onClick={closeMenu}
+              className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-105 transition-all duration-300 transform"
             >
               Projects
             </Link>
             <Link
               href={"/Contact"}
-              className="hover:underline hover:decoration-red-400 hover:font-bold transition-all duration-300"
+              onClick={closeMenu}
+              className="bg-gradient-to-r from-white to-red-300 bg-clip-text text-transparent hover:from-red-400 hover:to-white hover:scale-105 transition-all duration-300 transform"
             >
               Contact me
             </Link>
@@ -107,7 +118,7 @@ const Nav = () => {
         ) : null}
       </AnimatePresence>
     </>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav

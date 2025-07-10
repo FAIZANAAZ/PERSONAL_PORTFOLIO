@@ -59,7 +59,7 @@ export default function Component() {
                 alt={`${item.name} project`}
                 height={1000}
                 width={1000}
-                className="h-full w-full object-cover border-solid border-2 border-[#ff0000] rounded-md shadow-[0_0.0625rem_0.9375rem_#ff0000]"
+                className="h-full w-full object-contain border-solid border-2 border-[#ff0000] rounded-md shadow-[0_0.0625rem_0.9375rem_#ff0000]"
               />
             </div>
             <div data-aos="fade-left" className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start space-y-4">
