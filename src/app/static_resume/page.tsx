@@ -11,7 +11,7 @@ const Resume = () => {
           {/* Left Sidebar */}
           <aside className="w-1/2 bg-blue-900 text-white p-6 flex flex-col items-center print:w-1/3 print:text-white print:text-lg print:p-4 print:min-h-screen">
             <Image
-              src="/Images/profilep.png"
+              src="/Images/profilep.jpg"
               width={150}
               height={150}
               alt="Profile"

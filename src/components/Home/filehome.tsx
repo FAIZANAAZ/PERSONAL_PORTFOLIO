@@ -102,7 +102,7 @@ export default function Home1() {
         </div>
         <div className="h-[20rem] w-[20rem] rounded-full sm:h-68 sm:w-68 md:h-80 md:w-80 lg:h-[20rem] lg:w-[20rem] flex justify-center items-center md:pr-8 lg:mr-5 overflow-hidden">
   <Image
-    src="/Images/profilep.png"
+    src="/Images/profilep.jpg"
     alt="front-girl"
     width={1000}
     height={1000}
